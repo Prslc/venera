@@ -1,7 +1,7 @@
 name: Build ALL
 run-name: Build ALL
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
   release:
     types: [published]
 
